@@ -1,0 +1,2 @@
+module WeddingwelcomeHelper
+end

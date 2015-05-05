@@ -77,9 +77,10 @@
 		transition_speed		:	500,		// Speed of transition				
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
-										{image : 'placeholders/1400x950.gif'},
-										{image : 'placeholders/1400x950.gif'},  
-										{image : 'placeholders/1400x950.gif'}
+										{image : 'img/NUHomecoming.jpg'},
+										{image : 'img/Marathon2015.jpg'},  
+										{image : 'img/Bulls2014.jpg'}
+										{image : 'img/Birthday2014.jpg'}
 									]
 		});	
 	

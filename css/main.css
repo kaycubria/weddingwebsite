@@ -498,15 +498,15 @@ width:250px;
 
 /* This is where you change the path of the images for the couple */
 .ch-img-1 { 
-	background-image: url(../placeholders/220x220.gif);
+	background-image: url(../img/andrew.jpg);
 }
 
 .ch-img-2 { 
-	background-image: url(../placeholders/250x250.gif);
+	background-image: url(../img/mpark.jpg);
 }
 
 .ch-img-3 { 
-	background-image: url(../placeholders/220x220.gif);
+	background-image: url(../img/51.jpg);
 }
 
 .ch-info {

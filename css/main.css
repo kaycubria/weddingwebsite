@@ -758,8 +758,9 @@ margin: 0 0 10px;
 /*   VII. RSVP
 ==============================*/ 
 #rsvpwrap {
-	background: url(../placeholders/1400x950.gif) no-repeat center top;
-/* 	background: url(http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5259a34e5d050_1.JPG) no-repeat center top; */
+	/*background: url(../img/bluehyds.img) no-repeat center top;*/
+ 	/*background: url(http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5259a34e5d050_1.JPG) no-repeat center top; */
+	background: url(../img/bluehyds.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding:70px 0;
 	text-align:center;
@@ -781,6 +782,12 @@ margin: 0 0 10px;
 
 #rsvpwrap h2 {
 	color: #ffffff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
 }
 
 

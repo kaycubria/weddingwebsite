@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .row h2 {
 font-family: 'Pacifico', cursive;
-color: #dd675b;
+color: #759AD2;
 margin-bottom:15px;
 }
 
@@ -63,7 +63,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #759AD2;
     word-wrap: break-word;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -511,7 +511,7 @@ width:250px;
 
 .ch-info {
 	position: absolute;
-	background: rgba(222, 103, 95, 0.8);
+	background: #759AD2;
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
@@ -598,7 +598,7 @@ width:250px;
 .postYear {
 	font-size: 17px;
 	color: #fff;
-	background: #ff675f;
+	background: #759AD2;
 	text-align: center;
 	width: 100px;
 	height: 100px;

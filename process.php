@@ -61,7 +61,7 @@ $mail = new PHPMailer();
 
 $mail->From     = "admin@ever-after.com";// emaill address from your site
 $mail->FromName = "RSVP"; // Subject of the mail
-$mail->AddAddress("kay.lindenberg@gmail.com; andrewcubria@gmail.com","Name 1"); // Put your email here
+$mail->AddAddress("kay.lindenberg@gmail.com","Name 1"); // Put your email here
 
 $mail->WordWrap = 50;
 $mail->IsHTML(true);
@@ -71,7 +71,7 @@ $mail->Body     =  $body;
 $mail->AltBody  =  "This is the text-only body";
 
 if(!$mail->Send()) {
-	$recipient = 'kay.lindenberg@gmail.com; andrewcubria@gmail.com'; //Put your email here
+	$recipient = 'kay.lindenberg@gmail.com'; //Put your email here
 	$subject = 'Contact form failed';
 	$content = $body;	
   mail($recipient, $subject, $content, "From: mail@yourdomain.com\r\nReply-To: $email\r\nX-Mailer: DT_formmail");

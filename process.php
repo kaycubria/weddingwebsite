@@ -61,7 +61,7 @@ $mail = new PHPMailer();
 
 $mail->From     = "andrewandkathrynwedding@gmail.com";// emaill address from your site
 $mail->FromName = "RSVP"; // Subject of the mail
-$mail->AddAddress("kay.lindenberg@gmail.com","andrewcubria@gmail.com"); // Put your email here
+$mail->AddAddress("kay.lindenberg@gmail.com","Kay Lindenberg"); // Put your email here
 
 $mail->WordWrap = 50;
 $mail->IsHTML(true);

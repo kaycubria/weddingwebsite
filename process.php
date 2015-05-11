@@ -1,27 +1,3 @@
-<?php
-if ((isset($_POST['name'])) && (strlen(trim($_POST['name'])) > 0)) {
-	$name = stripslashes(strip_tags($_POST['name']));
-} else {$name = 'No name entered';}
-
-if ((isset($_POST['response'])) && (strlen(trim($_POST['response'])) > 0)) {
-	$response = stripslashes(strip_tags($_POST['response']));
-} else {$response = 'No response selected';}
-
-$services = implode(", ",array_filter(array($service1,$service2,$service3)));
-
-if ((isset($_POST['guests'])) && (strlen(trim($_POST['guests'])) > 0)) {
-	$guests = stripslashes(strip_tags($_POST['guests']));
-} else {$guests = 'No # of guests entered';}
-
-if ((isset($_POST['email'])) && (strlen(trim($_POST['email'])) > 0)) {
-	$email = stripslashes(strip_tags($_POST['email']));
-	
-} else {$email = 'No email entered';}
-if ((isset($_POST['message'])) && (strlen(trim($_POST['message'])) > 0)) {
-	$message = stripslashes(strip_tags($_POST['message']));
-} else {$message = 'No message entered';}
-ob_start();
-?>
 <html>
 <head>
 <style type="text/css">

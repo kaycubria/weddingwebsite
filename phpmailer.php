@@ -153,7 +153,7 @@ class PHPMailer
      *  Hosts will be tried in order.
      *  @var string
      */
-    var $Host        = "smtp.gmail.com";
+    var $Host        = "ssl://smtp.gmail.com";
 
     /**
      *  Sets the default SMTP server port.
